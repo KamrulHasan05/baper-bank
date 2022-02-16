@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baap er Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-20">
+            Welcome To <span class="text-blue-500 font-semibold">Baap Er Bank</span>
+        </h1>
+    </header>
+    <main>
+        <section>
+            <div class="container max-w-full mx-auto md:py-8 px-6">
+                <div class="max-w-sm mx-auto px-6">
+                    <div class="relative flex flex-wrap">
+                        <div class="w-full relative">
+                            <div class="md:mt-6">
+                                <div class="text-center text-3xl font-semibold text-black">
+                                    Please Login Here
+                                </div>
+                                <!-- form start -->
+                                <form class="mt-5">
+                                    <div class="mx-auto max-w-lg ">
+                                        <!-- username -->
+                                        <div class="py-3">
+                                            <input id="userName" placeholder="Enter username" type="text"
+                                                class="text-md block px-3 py-2 rounded-lg w-full
+                bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none">
+                                        </div>
+                                        <!-- email -->
+                                        <div class="py-3">
+                                            <input id="userEmail" placeholder="Enter your email" type="email"
+                                                class="text-md block px-3 py-2 rounded-lg w-full
+                bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none">
+                                        </div>
+                                        <!-- password -->
+                                        <div class="py-3">
+                                            <input id="userPassword" placeholder="Password" type="password"
+                                                class="text-md block px-3 py-2 rounded-lg w-full
+                bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none">
+                                        </div>
+                                        <!-- confirm password -->
+                                        <div class="py-3">
+                                            <input id="userConfirmPass" placeholder="Confirm Password" type="password"
+                                                class="text-md block px-3 py-2 rounded-lg w-full
+                bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none">
+                                        </div>
+                                        <!-- submit button -->
+                                        <button id="loginSubmit" class="mt-3 text-lg font-semibold
+            bg-gray-800 w-full text-white rounded-lg
+            px-6 py-3 block shadow-xl hover:text-white hover:bg-black">
+                                            SUBMIT
+                                        </button>
+                                    </div>
+                                </form>
+                                <!-- form end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
